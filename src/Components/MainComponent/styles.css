@@ -8,14 +8,16 @@
         background-color: #00ffff;
         display: flex;
         justify-content: space-around;
+        align-items: center;
     
         img {
-            width: 150px;
+            width: 400px;
             margin: 10px;
         }
-        
+    
         .title {
-            font-size: 3rem;
+            color: #001b1b;
+            font-size: 2.5rem;
             text-align: center;
             margin: 0;
             padding: 20px 0;
@@ -33,6 +35,7 @@
         .sub-title {
             font-size: 2.5rem;
             text-align: center;
+            margin: 20px;
         }
     }
 }
