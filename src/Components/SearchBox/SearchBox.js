@@ -1,4 +1,5 @@
 import React from "react"
+import "./styles.css"
 
 function SearchBox ( { onSearchChange } ) {
     const handleInputChange = ( event ) => {
@@ -6,11 +7,11 @@ function SearchBox ( { onSearchChange } ) {
     };
 
     return (
-        <input
-            type="text"
-            placeholder="Buscar equipo"
-            onChange={handleInputChange}
-        />
+        <form>
+            <label>Buscar Equipo </label>
+            <input type="text" placeholder="Escribir nombre del equipo" onChange={handleInputChange}/>
+        </form>
+        
     );
 }
 
