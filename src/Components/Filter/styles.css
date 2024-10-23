@@ -1,0 +1,91 @@
+.container-filtered-list {
+    margin-top: 10px;
+
+    .lists-team {
+        display: flex;
+        flex-wrap: wrap;   
+        justify-content: space-around;
+
+        .list-team {
+            background-color: #7eaeae;
+            padding: 10px 20px;
+            width: 25%;
+            margin-bottom: 50px;
+
+            .main-div {
+                .name-team {
+                    font-size: 1.75rem;
+                    margin: 10px 0;
+                    background-color: #dd4242;
+                    color: #ffffff;
+                    text-align: center;
+                }
+
+                p {
+                    font-size: 1.25rem;
+                    padding: 0;
+                }
+            }
+
+            .goalkeepers-div {
+                .subtitle-div {
+                    font-size: 1.35rem;
+                    margin: 10px 0;
+                }
+
+                ul {
+                    li {
+                        font-size: 1.15rem;
+                        padding: 0; 
+                        width: 100%;
+                    }
+                }
+            }
+
+            .defenses-div {
+                .subtitle-two-div {
+                    font-size: 1.35rem;
+                    margin: 10px 0;
+                }
+
+                ul {
+                    li {
+                        width: 100%;
+                        font-size: 1.15rem;
+                        padding: 0; 
+                    }
+                }
+            }
+
+            .midfielders-div {
+                .subtitle-three-div {
+                    font-size: 1.35rem;
+                    margin: 10px 0;
+                }
+
+                ul {
+                    li {
+                        width: 100%;
+                        font-size: 1.15rem;
+                        padding: 0; 
+                    }
+                }
+            }
+
+            .fronts-div  {
+                .subtitle-four-div {
+                    font-size: 1.35rem;
+                    margin: 10px 0;
+                }
+
+                ul {
+                    li {
+                        width: 100%;
+                        font-size: 1.15rem;
+                        padding: 0; 
+                    }
+                }
+            }
+        }
+    }    
+}
