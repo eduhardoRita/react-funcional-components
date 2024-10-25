@@ -34,7 +34,8 @@ function App() {
                     </p>
                 </section>
                 <section className="container-list">
-                    <h2 className="subtitle">Listas de equipos</h2>
+                    <h2 className="sub-title">Listas de equipos</h2>
+                    <hr/>
                     <FilteredList equipos={equiposData} searchQuery={searchQuery}/>
 
                 </section>
